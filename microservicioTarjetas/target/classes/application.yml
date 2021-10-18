@@ -1,0 +1,237 @@
+spring:
+    application:
+        name  : microservicio-tarjetas
+
+server:
+    port : 8082
+
+tabla:
+    passions:
+        -   name: shopping
+            salaryRanges:
+                -   min: 7000
+                    max: 14999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 32
+                            cards: 
+                                - Bsmart
+                                - Clasica
+                                - Afinity Card
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+                        -   min: 33
+                            max: 75
+                            cards: 
+                                - Clasica
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+                -   min: 15000
+                    max: 34999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 32
+                            cards: 
+                                - Oro
+                                - Afinity Card
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+                        -   min: 33
+                            max: 75
+                            cards: 
+                                - Oro
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+                -   min: 35000
+                    max: 49999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 75
+                            cards: 
+                                - Platinum
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+                -   min: 50000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 75
+                            cards: 
+                                - Platinum
+        -   name: travels
+            salaryRanges:
+                -   min: 12000
+                    max: 29999
+                    ageRanges: 
+                        -   min: 18
+                            max: 75
+                            cards: 
+                                - Citi / AAdvantage
+                -   min: 30000
+                    max: 34999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Citi / AAdvantage
+                        -   min: 24
+                            max: 75
+                            cards: 
+                                - Citi / AAdvantage
+                                - Platinum
+                -   min: 35000
+                    max: 49999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Citi / AAdvantage
+                        -   min: 24
+                            max: 75
+                            cards: 
+                                - Citi / AAdvantage
+                                - Platinum
+                -   min: 50000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 22
+                            cards: 
+                                - Citi / AAdvantage
+                        -   min: 23
+                            max: 75
+                            cards:
+                                - Platinum
+        -   name: help
+            salaryRanges:
+                -   min: 12000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 75
+                            cards: 
+                                - Citi / AAdvantage
+        -   name: business
+            salaryRanges:
+                -   min: 7000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 75
+                            cards: 
+                                - Office Depot
+                                - Costco
+                                - Best Buy Banamex
+                                - The Home Depot
+        -   name: sports
+            salaryRanges:
+                -   min: 7000
+                    max: 34999
+                    ageRanges: 
+                        -   min: 18
+                            max: 75
+                            cards: 
+                                - Marti Clasica
+                                - America Deporteismo
+                                - Pumas Deporteismo
+                                - Toluca Deporteismo
+                                - La verde Deporteismo
+                -   min: 35000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 75
+                            cards: 
+                                - Marti Premium Citibanamex
+        -   name: style
+            salaryRanges:
+                -   min: 7000
+                    max: 14999
+                    ageRanges: 
+                        -   min: 18
+                            max: 32
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 33
+                            max: 75
+                            cards: 
+                                - Bsmart
+                -   min: 15000
+                    max: 29999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 32
+                            cards: 
+                                - Bsmart
+                                - Oro
+                                - Afinity Card
+                        -   min: 33
+                            max: 75
+                            cards: 
+                                - Oro
+                -   min: 30000
+                    max: 34999
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                        -   min: 24
+                            max: 32
+                            cards: 
+                                - Bsmart
+                                - Afinity Card
+                                - Platinum
+                        -   min: 33
+                            max: 75
+                            cards: 
+                                - Platinum
+                -   min: 35000
+                    max: 1000000000000
+                    ageRanges: 
+                        -   min: 18
+                            max: 23
+                            cards: 
+                                - Bsmart
+                        -   min: 24
+                            max: 75
+                            cards: 
+                                - Bsmart
+                                - Platinum
